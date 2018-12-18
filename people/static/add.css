@@ -1,0 +1,62 @@
+﻿body {
+	background-image:url("1.jpg");
+}
+.label_input {
+	font-size: 14px;
+	font-family: 宋体;
+	width: 80px;
+	height: 30px;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.text_field {
+	width: 278px;
+	height: 28px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #eaedf1;
+	font-size:15px;
+}
+form p > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+#add_btn {
+	font-size: 16px;
+	font-family: 宋体;
+	width: 90px;
+	height: 35px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 6px;
+	border: 0;
+	float: left;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin-top:50px;
+}
+#cancel_btn {
+	font-size: 16px;
+	font-family: 宋体;
+	width: 90px;
+	height: 35px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 6px;
+	border: 0;
+	float: left;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin-top: 50px;
+	margin-left:30px;
+}

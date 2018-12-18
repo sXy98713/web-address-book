@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="../static/add.css" />
+	<script src="../static/jquery-3.3.1.js"></script>
+	<script src="../static/jquery/add.js"></script>
+    <title></title>
+</head>
+<body>
+	<div id="login_frame">
+		<form method="POST">
+		{% csrf_token %}
+			<p><label class="label_input">姓名</label><input type="text" class="text_field" id="name" /></p>
+			<p><label class="label_input">电话</label><input type="text" id="number_phone" class="text_field" /></p>
+			<p><label class="label_input">邮箱</label><input type="text" id="email" class="text_field" /></p>
+			<p><label class="label_input">住址</label><input type="text" id="address" class="text_field" /></p>
+			<p><label class="label_input">QQ</label><input type="text" id="QQ" class="text_field" /></p>
+			<p><label class="label_input">学校</label><input type="text" id="school" class="text_field" /></p>
+			<div id="add_control">
+				<input type="button" id="add_btn" value="添加" onclick="add();" />
+				<input type="button" id="cancel_btn" value="取消" onclick="cancel();" />
+			</div>
+		</form>
+	</div>
+</body>
+</html>
